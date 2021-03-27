@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	font-family: helvetica;
+	padding-bottom: 25px;
+	background-image: url(Imagens/fundo.JPG);
+	background-size: cover;
+	color: white;
+	text-shadow: 30px 30px 30px black
+}
+
+h1{
+	font-size: 70px;
+	font-family: helvetica;
+	padding-top:300px;
+	padding-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	margin-bottom: 15px;
+}
+.nome{
+	color: white
+}
+p{
+	font-size: 25px;
+	font-family: helvetica;
+	text-shadow: 30px 30px 30px black
+}
+
+.botao{
+	text-decoration: none;
+	background-color: rgb(207, 215, 209);
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 8px;
+}
+
+.botao:hover {
+	background-color: rgba(207, 215, 209, 0.7)
+}
+
+.lista{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 150px
+}
+
+
+.lista li {
+	display: inline;
+}
+
+
+.lista a {
+	color: white;
+	font-size: 25px
+}
